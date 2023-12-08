@@ -40,6 +40,4 @@ with open('input8', 'r') as f:
         if arrived:
             break
 
-        if step % 100000000 == 0:
-            print(step)
     print(step)
